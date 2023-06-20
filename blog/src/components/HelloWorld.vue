@@ -1,7 +1,7 @@
 <template>
   <div class="hello">
     <h1>Hello World</h1>
-    <h2> {{ msg }} </h2>
+    <h2>Pass by props: {{ msg }} </h2>
   </div>
 </template>
 
