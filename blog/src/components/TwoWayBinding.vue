@@ -1,21 +1,22 @@
 <template>
-    <h1>Two way data binding</h1>
-    <input type="text" v-model="count" placeholder="Type here...">
-    <h2>{{ count }}</h2>
+  <h1>Two way data binding</h1>
+  <input type="text" v-model="count" placeholder="Type here..." />
+  <h2>{{ count }}</h2>
 </template>
 
 <script>
 export default {
-name:'Twowaybinding',
-data() {
+  name: "TwoWaybinding",
+  data() {
     return {
-        count: null,
-    }
-}
-
-}
+      count: null,
+    };
+  },
+};
 </script>
 
-<style>
-
+<style scoped>
+h1 {
+  color: red;
+}
 </style>
